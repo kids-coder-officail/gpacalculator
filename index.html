@@ -1,1 +1,481 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<script src="https://quge5.com/88/tag.min.js" data-zone="309655" async data-cfasync="false"></script>
+    <!-- Basic Meta & SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>জিপিএ ক্যালকুলেটর | GPA & CGPA Calculator BD (SSC, HSC, University)</title>
+    <meta name="monetag" content="4a614ded8a00ee2d28777fb19e8bf7fd">
+    <meta name="description" content="বাংলাদেশের শিক্ষার্থীদের জন্য সম্পূর্ণ ফ্রি জিপিএ (GPA) এবং সিজিপিএ (CGPA) ক্যালকুলেটর। এসএসসি, এইচএসসি ও বিশ্ববিদ্যালয়ের গ্রেডিং সিস্টেম অনুযায়ী সহজেই আপনার রেজাল্ট হিসাব করুন।">
+    <meta name="keywords" content="GPA Calculator BD, CGPA Calculator Bangladesh, SSC GPA Calculator, HSC CGPA, University CGPA Calculator, জিপিএ ক্যালকুলেটর, সিজিপিএ ক্যালকুলেটর, Education Board Result">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://gpacalculatorbd.fast-page.org/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gpacalculatorbd.fast-page.org/">
+    <meta property="og:title" content="জিপিএ ক্যালকুলেটর | GPA & CGPA Calculator BD">
+    <meta property="og:description" content="বাংলাদেশের শিক্ষার্থীদের জন্য সম্পূর্ণ ফ্রি জিপিএ এবং সিজিপিএ ক্যালকুলেটর। SSC, HSC ও ভার্সিটির রেজাল্ট সহজেই হিসাব করুন।">
+    <meta property="og:locale" content="bn_BD">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="জিপিএ ক্যালকুলেটর | GPA & CGPA Calculator BD">
+    <meta name="twitter:description" content="বাংলাদেশের শিক্ষার্থীদের জন্য সম্পূর্ণ ফ্রি জিপিএ এবং সিজিপিএ ক্যালকুলেটর।">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "জিপিএ ক্যালকুলেটর BD",
+      "url": "https://gpacalculatorbd.fast-page.org/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "description": "বাংলাদেশের শিক্ষার্থীদের জন্য ফ্রি জিপিএ (GPA) এবং সিজিপিএ (CGPA) ক্যালকুলেটর। SSC, HSC এবং বিশ্ববিদ্যালয়ের গ্রেডিং সিস্টেম সাপোর্ট করে।",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BDT"
+      }
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #2563eb; 
+            --primary-hover: #1d4ed8;
+            --bg: #f3f4f6;
+            --card: #ffffff;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+            --radius: 12px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            font-size: 16px;
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+
+        /* Header */
+        .header { text-align: center; margin-bottom: 24px; }
+        .header h1 { font-size: 28px; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
+        .header p { color: var(--muted); font-size: 15px; }
+
+        /* Tabs */
+        .tabs { display: flex; background: var(--card); border-radius: var(--radius); padding: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 20px; overflow-x: auto; scrollbar-width: none; }
+        .tabs::-webkit-scrollbar { display: none; }
+        .tab-btn { flex: 1; min-width: max-content; padding: 10px 16px; border: none; background: transparent; border-radius: 8px; font-family: inherit; font-size: 15px; font-weight: 600; color: var(--muted); cursor: pointer; transition: all 0.2s; }
+        .tab-btn.active { background: var(--primary); color: white; box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2); }
+
+        /* Cards */
+        .card { background: var(--card); border-radius: var(--radius); padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); margin-bottom: 20px; border: 1px solid var(--border); }
+        .card-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+
+        /* Controls */
+        .system-selector { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; background: #f8fafc; padding: 10px; border-radius: 8px; border: 1px solid var(--border); }
+        .system-selector label { font-weight: 600; font-size: 14px; white-space: nowrap; }
+        select.input-field, input.input-field {
+            width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px; font-family: inherit; font-size: 15px; outline: none; transition: border 0.2s; background: white;
+        }
+        select.input-field { flex: 1; }
+        input.input-field:focus, select.input-field:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+
+        /* Table / List */
+        .course-list { display: flex; flex-direction: column; gap: 12px; }
+        .course-row { display: grid; grid-template-columns: 1fr 80px 120px 40px; gap: 10px; align-items: center; background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid var(--border); }
+        @media (max-width: 600px) {
+            .course-row { grid-template-columns: 1fr 1fr; grid-template-areas: "name name" "credit grade" "remove remove"; }
+            .course-row input:nth-child(1) { grid-area: name; }
+            .course-row input:nth-child(2) { grid-area: credit; }
+            .course-row select { grid-area: grade; }
+            .course-row button { grid-area: remove; width: 100%; margin-top: 8px; }
+        }
+        .btn-remove { background: #fee2e2; color: #ef4444; border: none; width: 36px; height: 36px; border-radius: 6px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+
+        /* Buttons */
+        .actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+        .btn { padding: 10px 20px; border-radius: 8px; font-family: inherit; font-weight: 600; font-size: 15px; cursor: pointer; border: none; transition: all 0.2s; display: flex; align-items: center; gap: 8px; justify-content: center; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-hover); }
+        .btn-secondary { background: white; border: 1px solid var(--border); color: var(--text); }
+        .btn-secondary:hover { background: #f3f4f6; }
+
+        /* Result Display */
+        .result-box { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 2px solid #bfdbfe; border-radius: 12px; padding: 24px; text-align: center; margin-top: 20px; }
+        .result-label { font-size: 14px; color: var(--primary); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .result-value { font-size: 48px; font-weight: 700; color: var(--primary); margin: 8px 0; line-height: 1; }
+        .result-details { font-size: 14px; color: var(--muted); margin-top: 8px; }
+
+        /* History & Empty */
+        .empty-state { text-align: center; padding: 30px 20px; color: var(--muted); background: #f9fafb; border-radius: 8px; border: 2px dashed var(--border); }
+        .history-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); }
+        .history-item:last-child { border-bottom: none; }
+        .hist-info h4 { font-size: 16px; margin-bottom: 2px; }
+        .hist-info p { font-size: 13px; color: var(--muted); }
+        .hist-val { font-size: 20px; font-weight: 700; color: var(--primary); }
+
+        /* Grade Chart Table */
+        .grade-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+        .grade-table th, .grade-table td { padding: 10px; text-align: left; border-bottom: 1px solid var(--border); }
+        .grade-table th { background: #f8fafc; font-weight: 600; color: var(--muted); }
+        .grade-table tr:last-child td { border-bottom: none; }
+
+        /* SEO Content & FAQ */
+        .seo-content { margin-top: 30px; padding: 20px; background: var(--card); border-radius: var(--radius); border: 1px solid var(--border); }
+        .seo-content h2 { font-size: 20px; color: var(--primary); margin-bottom: 12px; margin-top: 24px; }
+        .seo-content h2:first-child { margin-top: 0; }
+        .seo-content h3 { font-size: 16px; margin-top: 16px; margin-bottom: 6px; color: var(--text); }
+        .seo-content p, .seo-content li { color: var(--muted); margin-bottom: 8px; line-height: 1.7; }
+        .seo-content a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        .seo-content a:hover { text-decoration: underline; }
+        .faq-item { border-bottom: 1px dashed var(--border); padding-bottom: 12px; margin-bottom: 12px; }
+        .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+        .hidden { display: none !important; }
+        #toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(100px); background: #1f2937; color: white; padding: 12px 24px; border-radius: 30px; font-size: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); opacity: 0; transition: all 0.3s; z-index: 1000; pointer-events: none; }
+        #toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+
+        @media print {
+            body { background: white; }
+            .no-print, .tabs, .header p, .actions, .system-selector, .seo-content { display: none !important; }
+            .card { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header no-print">
+        <!-- H1 Tag for SEO -->
+        <h1>জিপিএ (GPA) ও সিজিপিএ (CGPA) ক্যালকুলেটর</h1>
+        <p>বাংলাদেশের শিক্ষার্থীদের জন্য সহজ ও নির্ভুল ফলাফল বিশ্লেষণ</p>
+    </header>
+
+    <!-- Tabs -->
+    <div class="tabs no-print" role="tablist">
+        <button class="tab-btn active" data-tab="gpa">জিপিএ (GPA)</button>
+        <button class="tab-btn" data-tab="cgpa">সিজিপিএ (CGPA)</button>
+        <button class="tab-btn" data-tab="chart">গ্রেড চার্ট</button>
+        <button class="tab-btn" data-tab="history">ইতিহাস</button>
+    </div>
+
+    <main>
+        <!-- GPA Tab -->
+        <section id="tab-gpa" class="tab-content active">
+            <div class="card">
+                <div class="system-selector no-print">
+                    <label for="scaleSystem">পদ্ধতি:</label>
+                    <select id="scaleSystem" class="input-field">
+                        <option value="bd_5">এসএসসি / এইচএসসি (GPA 5.00)</option>
+                        <option value="bd_4">বিশ্ববিদ্যালয় (CGPA 4.00)</option>
+                    </select>
+                </div>
+
+                <h2 class="card-title"><span>বিষয় ও নম্বর যোগ করুন</span></h2>
+                <div id="courseList" class="course-list"></div>
+                <div class="actions no-print">
+                    <button id="addRowBtn" class="btn btn-secondary">➕ নতুন বিষয়</button>
+                    <button id="clearAllBtn" class="btn btn-secondary">🗑️ সব মুছুন</button>
+                </div>
+            </div>
+
+            <div class="result-box">
+                <div class="result-label">আপনার ফলাফল</div>
+                <div class="result-value" id="resultGPA">0.00</div>
+                <div class="result-details" id="resultDetails">বিষয় যোগ করে হিসাব করুন</div>
+                <div class="actions no-print" style="justify-content: center; margin-top: 16px;">
+                    <button id="saveGpaBtn" class="btn btn-primary">💾 সেভ করুন</button>
+                    <button onclick="window.print()" class="btn btn-secondary">🖨️ প্রিন্ট</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CGPA Tab -->
+        <section id="tab-cgpa" class="tab-content hidden">
+            <div class="card">
+                <h2 class="card-title">সেমিস্টার ভিত্তিক সিজিপিএ</h2>
+                <div id="semList" class="course-list"></div>
+                <div class="actions no-print">
+                    <button id="addSemBtn" class="btn btn-secondary">➕ সেমিস্টার যোগ</button>
+                </div>
+            </div>
+            <div class="result-box">
+                <div class="result-label">মোট সিজিপিএ</div>
+                <div class="result-value" id="resultCGPA">0.00</div>
+                <div class="result-details" id="resultCGPADetails">সেমিস্টার যোগ করুন</div>
+                <div class="actions no-print" style="justify-content: center; margin-top: 16px;">
+                    <button id="saveCgpaBtn" class="btn btn-primary">💾 সেভ করুন</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chart Tab -->
+        <section id="tab-chart" class="tab-content hidden">
+            <div class="card">
+                <h2 class="card-title">গ্রেডিং স্কেল (শিক্ষা বোর্ড)</h2>
+                <table class="grade-table">
+                    <thead><tr><th>নম্বর (Marks)</th><th>গ্রেড</th><th>পয়েন্ট</th></tr></thead>
+                    <tbody>
+                        <tr><td>৮০ - ১০০</td><td>A+</td><td>5.00</td></tr>
+                        <tr><td>৭০ - ৭৯</td><td>A</td><td>4.00</td></tr>
+                        <tr><td>৬০ - ৬৯</td><td>A-</td><td>3.50</td></tr>
+                        <tr><td>৫০ - ৫৯</td><td>B</td><td>3.00</td></tr>
+                        <tr><td>৪০ - ৪৯</td><td>C</td><td>2.00</td></tr>
+                        <tr><td>৩৩ - ৩৯</td><td>D</td><td>1.00</td></tr>
+                        <tr><td>০ - ৩২</td><td>F</td><td>0.00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card">
+                <h2 class="card-title">গ্রেডিং স্কেল (বিশ্ববিদ্যালয়)</h2>
+                <table class="grade-table">
+                    <thead><tr><th>নম্বর</th><th>গ্রেড</th><th>পয়েন্ট</th></tr></thead>
+                    <tbody>
+                        <tr><td>৮০+</td><td>A+</td><td>4.00</td></tr>
+                        <tr><td>৭৫-৭৯</td><td>A</td><td>3.75</td></tr>
+                        <tr><td>৭০-৭৪</td><td>A-</td><td>3.50</td></tr>
+                        <tr><td>৬৫-৬৯</td><td>B+</td><td>3.25</td></tr>
+                        <tr><td>৬০-৬৪</td><td>B</td><td>3.00</td></tr>
+                        <tr><td>৫৫-৫৯</td><td>B-</td><td>2.75</td></tr>
+                        <tr><td>৫০-৫৪</td><td>C+</td><td>2.50</td></tr>
+                        <tr><td>৪৫-৪৯</td><td>C</td><td>2.25</td></tr>
+                        <tr><td>৪০-৪৪</td><td>D</td><td>2.00</td></tr>
+                        <tr><td>০-৩৯</td><td>F</td><td>0.00</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- History Tab -->
+        <section id="tab-history" class="tab-content hidden">
+            <div class="card">
+                <div class="card-title">
+                    <span>সংরক্ষিত ফলাফল</span>
+                    <button id="clearHistBtn" class="btn btn-secondary" style="padding: 6px 12px; font-size: 13px;">সব মুছুন</button>
+                </div>
+                <div id="historyList">
+                    <div class="empty-state">কোনো ফলাফল সংরক্ষণ করা হয়নি।</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- SEO Content & FAQ (Crucial for Word Count and SEO Score) -->
+    <div class="seo-content">
+        <h2>কীভাবে এই জিপিএ ক্যালকুলেটর ব্যবহার করবেন?</h2>
+        <p>এই টুলটি বাংলাদেশের শিক্ষার্থীদের জন্য তৈরি করা হয়েছে। আপনি খুব সহজেই আপনার এসএসসি (SSC), এইচএসসি (HSC) বা বিশ্ববিদ্যালয়ের সেমিস্টারের জিপিএ (GPA) এবং সিজিপিএ (CGPA) হিসাব করতে পারবেন। আমাদের ক্যালকুলেটরটি বাংলাদেশের শিক্ষা বোর্ডের (<a href="https://dshe.gov.bd/" target="_blank" rel="noopener noreferrer">মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর</a>) সর্বশেষ গ্রেডিং সিস্টেম অনুসরণ করে।</p>
+        
+        <h2 id="faq">সচরাচর জিজ্ঞাসিত প্রশ্ন (FAQ)</h2>
+        
+        <div class="faq-item">
+            <h3>১. বাংলাদেশে GPA 5.00 স্কেলে কোন গ্রেড কত পয়েন্ট?</h3>
+            <p>শিক্ষা বোর্ডের নিয়ম অনুযায়ী: A+ = 5.00, A = 4.00, A- = 3.50, B = 3.00, C = 2.00, D = 1.00 এবং F = 0.00। ৮০ বা তার বেশি নম্বর পেলে A+ ধরা হয়।</p>
+        </div>
+        
+        <div class="faq-item">
+            <h3>২. আমি কি আমার বিশ্ববিদ্যালয়ের CGPA হিসাব করতে পারব?</h3>
+            <p>হ্যাঁ, উপরের ড্রপডাউন মেনু থেকে "বিশ্ববিদ্যালয় (CGPA 4.00)" সিলেক্ট করুন। এটি A+ = 4.00 থেকে F = 0.00 স্কেলে আপনার সিজিপিএ হিসাব করবে।</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>৩. এই টুলে কি আমার তথ্য সেভ থাকে?</h3>
+            <p>হ্যাঁ, আপনি "সেভ করুন" বাটনে ক্লিক করলে আপনার ফলাফল আপনার ব্রাউজারে সেভ হয়ে যাবে। তবে এটি অন্য কোনো সার্ভারে পাঠানো হয় না, তাই এটি সম্পূর্ণ নিরাপদ।</p>
+        </div>
+        
+        <p style="margin-top: 20px;">আরও তথ্যের জন্য আমাদের <a href="#tab-chart">গ্রেড চার্ট</a> সেকশনটি দেখতে পারেন।</p>
+    </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+    // --- Data & State ---
+    const SCALES = {
+        'bd_5': [
+            { grade: 'A+', point: 5.00, min: 80 }, { grade: 'A', point: 4.00, min: 70 },
+            { grade: 'A-', point: 3.50, min: 60 }, { grade: 'B', point: 3.00, min: 50 },
+            { grade: 'C', point: 2.00, min: 40 }, { grade: 'D', point: 1.00, min: 33 },
+            { grade: 'F', point: 0.00, min: 0 }
+        ],
+        'bd_4': [
+            { grade: 'A+', point: 4.00, min: 80 }, { grade: 'A', point: 3.75, min: 75 },
+            { grade: 'A-', point: 3.50, min: 70 }, { grade: 'B+', point: 3.25, min: 65 },
+            { grade: 'B', point: 3.00, min: 60 }, { grade: 'B-', point: 2.75, min: 55 },
+            { grade: 'C+', point: 2.50, min: 50 }, { grade: 'C', point: 2.25, min: 45 },
+            { grade: 'D', point: 2.00, min: 40 }, { grade: 'F', point: 0.00, min: 0 }
+        ]
+    };
+
+    let currentSystem = 'bd_5';
+    let history = JSON.parse(localStorage.getItem('bd_gpa_history') || '[]');
+
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    const courseList = document.getElementById('courseList');
+    const addRowBtn = document.getElementById('addRowBtn');
+    const resultGPA = document.getElementById('resultGPA');
+    const resultDetails = document.getElementById('resultDetails');
+    const scaleSystem = document.getElementById('scaleSystem');
+    const semList = document.getElementById('semList');
+    const addSemBtn = document.getElementById('addSemBtn');
+    const resultCGPA = document.getElementById('resultCGPA');
+    const resultCGPADetails = document.getElementById('resultCGPADetails');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetTab = btn.getAttribute('data-tab');
+            tabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            tabContents.forEach(c => {
+                if(c.id === 'tab-' + targetTab) { c.classList.remove('hidden'); c.classList.add('active'); } 
+                else { c.classList.add('hidden'); c.classList.remove('active'); }
+            });
+            if(targetTab === 'history') renderHistory();
+        });
+    });
+
+    function getGradeOptions() {
+        return SCALES[currentSystem].map(s => `<option value="${s.point}">${s.grade} (${s.point.toFixed(2)})</option>`).join('');
+    }
+
+    function createCourseRow() {
+        const div = document.createElement('div');
+        div.className = 'course-row';
+        div.innerHTML = `
+            <input type="text" class="input-field c-name" placeholder="বিষয়ের নাম (যেমন: বাংলা)">
+            <input type="number" class="input-field c-credit" placeholder="ক্রেডিট" value="1" min="0" step="0.5">
+            <select class="input-field c-grade">
+                <option value="">গ্রেড নির্বাচন</option>
+                ${getGradeOptions()}
+            </select>
+            <button class="btn-remove" title="মুছে ফেলুন">×</button>
+        `;
+        courseList.appendChild(div);
+        attachRowListeners(div);
+    }
+
+    function attachRowListeners(row) {
+        row.querySelector('.btn-remove').addEventListener('click', () => {
+            row.remove(); calculateGPA(); if(courseList.children.length === 0) createCourseRow();
+        });
+        row.querySelectorAll('input, select').forEach(el => {
+            el.addEventListener('input', calculateGPA); el.addEventListener('change', calculateGPA);
+        });
+    }
+
+    function calculateGPA() {
+        let totalPoints = 0, totalCredits = 0, count = 0;
+        courseList.querySelectorAll('.course-row').forEach(row => {
+            const credit = parseFloat(row.querySelector('.c-credit').value) || 0;
+            const grade = parseFloat(row.querySelector('.c-grade').value);
+            if (!isNaN(grade) && credit > 0) { totalPoints += (credit * grade); totalCredits += credit; count++; }
+        });
+        if (totalCredits > 0) {
+            const gpa = totalPoints / totalCredits;
+            resultGPA.innerText = gpa.toFixed(2);
+            resultDetails.innerText = `মোট ${count} টি বিষয়, ${totalCredits} ক্রেডিট`;
+            if(gpa >= 4.00) resultGPA.style.color = '#10b981';
+            else if(gpa >= 3.00) resultGPA.style.color = '#2563eb';
+            else if(gpa >= 2.00) resultGPA.style.color = '#f59e0b';
+            else resultGPA.style.color = '#ef4444';
+        } else {
+            resultGPA.innerText = '0.00'; resultDetails.innerText = 'বিষয় ও গ্রেড যোগ করুন'; resultGPA.style.color = 'var(--primary)';
+        }
+    }
+
+    addRowBtn.addEventListener('click', createCourseRow);
+    document.getElementById('clearAllBtn').addEventListener('click', () => {
+        if(confirm('আপনি কি সব বিষয় মুছে ফেলতে চান?')) { courseList.innerHTML = ''; createCourseRow(); calculateGPA(); }
+    });
+
+    scaleSystem.addEventListener('change', (e) => {
+        currentSystem = e.target.value;
+        const rowsData = [];
+        courseList.querySelectorAll('.course-row').forEach(row => {
+            rowsData.push({ name: row.querySelector('.c-name').value, credit: row.querySelector('.c-credit').value, grade: row.querySelector('.c-grade').value });
+        });
+        courseList.innerHTML = '';
+        rowsData.forEach(data => {
+            createCourseRow();
+            const lastRow = courseList.lastElementChild;
+            lastRow.querySelector('.c-name').value = data.name;
+            lastRow.querySelector('.c-credit').value = data.credit;
+            if(data.grade) lastRow.querySelector('.c-grade').value = data.grade;
+        });
+        if(courseList.children.length === 0) createCourseRow();
+        calculateGPA();
+    });
+
+    function createSemRow() {
+        const div = document.createElement('div');
+        div.className = 'course-row';
+        div.innerHTML = `
+            <input type="text" class="input-field s-name" placeholder="সেমিস্টার নাম">
+            <input type="number" class="input-field s-credit" placeholder="ক্রেডিট" value="10" min="0" step="0.5">
+            <input type="number" class="input-field s-gpa" placeholder="জিপিএ" step="0.01" min="0" max="5">
+            <button class="btn-remove" title="মুছুন">×</button>
+        `;
+        semList.appendChild(div);
+        div.querySelector('.btn-remove').addEventListener('click', () => { div.remove(); calculateCGPA(); if(semList.children.length === 0) createSemRow(); });
+        div.querySelectorAll('input').forEach(el => { el.addEventListener('input', calculateCGPA); });
+    }
+
+    function calculateCGPA() {
+        let totalPoints = 0, totalCredits = 0, count = 0;
+        semList.querySelectorAll('.course-row').forEach(row => {
+            const credit = parseFloat(row.querySelector('.s-credit').value) || 0;
+            const gpa = parseFloat(row.querySelector('.s-gpa').value);
+            if(!isNaN(gpa) && credit > 0) { totalPoints += (credit * gpa); totalCredits += credit; count++; }
+        });
+        if(totalCredits > 0) { resultCGPA.innerText = (totalPoints / totalCredits).toFixed(2); resultCGPADetails.innerText = `${count} টি সেমিস্টার সম্পন্ন`; } 
+        else { resultCGPA.innerText = '0.00'; resultCGPADetails.innerText = 'তথ্য দিন'; }
+    }
+    addSemBtn.addEventListener('click', createSemRow);
+
+    function saveToHistory(type, value, details) {
+        history.unshift({ id: Date.now(), type, value, details, date: new Date().toLocaleDateString('bn-BD') });
+        if(history.length > 20) history.pop();
+        localStorage.setItem('bd_gpa_history', JSON.stringify(history));
+        showToast('সফলভাবে সেভ করা হয়েছে!');
+    }
+
+    function renderHistory() {
+        const list = document.getElementById('historyList'); list.innerHTML = '';
+        if(history.length === 0) { list.innerHTML = '<div class="empty-state">কোনো ফলাফল সংরক্ষণ করা হয়নি।</div>'; return; }
+        history.forEach(item => {
+            const div = document.createElement('div'); div.className = 'history-item';
+            div.innerHTML = `<div class="hist-info"><h4>${item.type}</h4><p>${item.details} • ${item.date}</p></div><div class="hist-val">${item.value}</div>`;
+            list.appendChild(div);
+        });
+    }
+
+    document.getElementById('saveGpaBtn').addEventListener('click', () => { if(resultGPA.innerText === '0.00') return showToast('আগে ফলাফল তৈরি করুন'); saveToHistory('জিপিএ', resultGPA.innerText, resultDetails.innerText); });
+    document.getElementById('saveCgpaBtn').addEventListener('click', () => { if(resultCGPA.innerText === '0.00') return showToast('আগে ফলাফল তৈরি করুন'); saveToHistory('সিজিপিএ', resultCGPA.innerText, resultCGPADetails.innerText); });
+    document.getElementById('clearHistBtn').addEventListener('click', () => { if(confirm('সব ইতিহাস মুছে ফেলবেন?')) { history = []; localStorage.removeItem('bd_gpa_history'); renderHistory(); showToast('ইতিহাস মুছে ফেলা হয়েছে'); } });
+
+    function showToast(msg) { const t = document.getElementById('toast'); t.innerText = msg; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 3000); }
+
+    // Init
+    createCourseRow(); createCourseRow(); createCourseRow();
+    createSemRow(); createSemRow();
+    calculateGPA(); calculateCGPA(); renderHistory();
+</script>
+</body>
+</html>
